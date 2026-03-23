@@ -1,43 +1,33 @@
-🛒 Mini Sistema de Vendas - Praticando Java
-Este é um projeto de estudos focado em dominar a "Dupla Dinâmica" da programação Java: o laço de repetição while e a estrutura de decisão switch case.
+# 🛒 Mini Sistema de Vendas - Praticando Java
+Este projeto foi desenvolvido para consolidar os fundamentos de lógica de programação em Java, focando especificamente na interação entre laços de repetição e estruturas de seleção.
 
-O objetivo foi simular um terminal de PDV (Ponto de Venda) de uma mercearia, gerenciando carrinho de compras, acumuladores de valores e contadores de itens.
+##🎯 Objetivo do Aprendizado
+O foco principal foi dominar a "Dupla Dinâmica":
 
-🚀 O que eu pratiquei neste código?
-Estrutura de Repetição (while): Criação de um menu interativo que mantém o programa rodando até que o usuário decida sair (opção 0).
+while: Para criar um motor que mantém o programa rodando e escutando o usuário.
 
-Seleção de Fluxo (switch case): Organização limpa das opções de produtos, evitando o uso excessivo de if/else encadeados.
+switch case: Para gerenciar múltiplas opções de menu de forma limpa e organizada.
 
-Acumuladores e Contadores: * totalVenda += valor: Para somar os preços dos produtos no total.
+## 🚀 Conceitos Aplicados
+Acumuladores: Uso de totalVenda += valor para somar preços dinamicamente.
 
-qtdItens++: Para contar quantos produtos foram adicionados.
+Contadores: Uso de qtdItens++ para registrar a quantidade de produtos bipados.
 
-Manipulação de Buffer (Scanner): Uso do sc.nextLine() para evitar o erro do "Enter fantasma" ao ler dados do teclado.
+Gerenciamento de Estado: Variáveis declaradas fora do loop para manter a memória dos dados enquanto o programa executa.
 
-🛠️ Funcionalidades
-O sistema permite:
+Tratamento de Buffer: Limpeza do Scanner com sc.nextLine() para evitar erros na leitura de dados após tipos numéricos.
 
-Adicionar Pão (R$ 0.50) ao carrinho.
+## 🛠️ Funcionalidades do Sistema
+O sistema simula um PDV (Ponto de Venda) simples com as seguintes opções:
 
-Adicionar Leite (R$ 5.00) (com um aviso especial no console 😂).
-
-Adicionar Café (R$ 15.00).
-
-Consultar o status atual do carrinho (Quantidade de itens e valor total acumulado).
-
-Finalizar a compra com um resumo detalhado.
-
-💻 Exemplo de Execução
-Plaintext
-### Praticando ###
-# Mini Sistema de Vendas #
 1 - Adicionar Pão (R$ 0.50)
-2 - Adicionar Leite (R$ 5.00)
-3 - Adicionar Café (R$ 15.00)
-4 - Ver Carrinho
-0 - Finalizar Compra.
 
-Escolha: 2
-> Adicionando Leite, lá ele.
-🧠 Evolução Pessoal
-Este projeto marca a transição do entendimento de lógica básica para a criação de sistemas funcionais que gerenciam estados em memória. O próximo passo será implementar regras de negócio mais complexas, como sistemas de descontos e cupons!
+2 - Adicionar Leite (R$ 5.00)
+
+3 - Adicionar Café (R$ 15.00)
+
+4 - Exibir o Carrinho (Total em R$ e total de itens)
+
+0 - Finalizar Compra e encerrar o programa.
+
+
