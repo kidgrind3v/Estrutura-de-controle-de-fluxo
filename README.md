@@ -1,7 +1,7 @@
 # 🛒 Mini Sistema de Vendas - Praticando Java
 Este projeto foi desenvolvido para consolidar os fundamentos de lógica de programação em Java, focando especificamente na interação entre laços de repetição e estruturas de seleção.
 
-##🎯 Objetivo do Aprendizado
+## 🎯 Objetivo do Aprendizado
 O foco principal foi dominar a "Dupla Dinâmica":
 
 while: Para criar um motor que mantém o programa rodando e escutando o usuário.
